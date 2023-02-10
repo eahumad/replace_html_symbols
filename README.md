@@ -1,24 +1,24 @@
 # Replace HTML Symbols
 
-a little tool for replace html symbols like &nbsp; on files build with Dart
+A small tool to replace HTML symbols like  `&nbsp;` in files built with Dart.
 
-## usage
+## Usage
 
-### With dart run
-
-```
-dart run bin/replace_html_symbols.dart <input_file> <output_file>
-```
-
-### Compiled
-
-first compile runing
+### Running with Dart
 
 ```
-dart compile exe bin/replace_html_symbols.dart
+$ dart run bin/replace_html_symbols.dart <input_file> <output_file>
 ```
 
-Now, you can take your self-contained executable to anywhere and run it like this
+### Compilation
+
+To compile the program, run:
+
+```
+$ dart compile exe bin/replace_html_symbols.dart
+```
+
+This will produce a self-contained executable that can be run from anywhere using the following command:
 
 ```
 replace_html_symbols <input_file> <output_file>
